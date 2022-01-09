@@ -1,0 +1,21 @@
+ git clone git@github.com:Angeloacl/Dio-Desafio-Git-GitHub.git
+
+Cloning into 'Dio-Desafio-Git-GitHub'...
+Enter passphrase for key '/c/Users/Camilo/.ssh/id_ed25519':
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git
+ cd Dio-Desafio-Git-GitHub/
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
