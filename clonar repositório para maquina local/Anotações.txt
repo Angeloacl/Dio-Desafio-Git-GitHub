@@ -1,0 +1,87 @@
+ git clone git@github.com:Angeloacl/Dio-Desafio-Git-GitHub.git
+
+Cloning into 'Dio-Desafio-Git-GitHub'...
+Enter passphrase for key '/c/Users/Camilo/.ssh/id_ed25519':
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git
+ cd Dio-Desafio-Git-GitHub/
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+#Existe uma pasta nova#
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+       # Comandos iniciais/ #
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+# adicionamos a nova pasta ao GitHub, somente no controle de versão local #
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git add .
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Comandos iniciais/Anota\303\247\303\265es.txt"
+        new file:   Comandos iniciais/Novo(a) Documento de Texto.txt
+
+# Agora vamos realmente subir para o gitHub #
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git commit -m " Inclusão de comandos para clonar repositório" 
+
+[main eded733]  Inclusão de comandos para clonar repositório
+ 2 files changed, 21 insertions(+)
+ create mode 100644 "Comandos iniciais/Anota\303\247\303\265es.txt"
+ create mode 100644 Comandos iniciais/Novo(a) Documento de Texto.txt
+
+# Eles esta dizendo que precisamos dar o comando push para mandar para nuvem #
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+# enviamos todos os commits para nuvem #
+
+Camilo@Angelo-NT MINGW64 ~/Documents/Dio/Git/Dio-Desafio-Git-GitHub (main)
+$ git push origin main
+Enter passphrase for key '/c/Users/Camilo/.ssh/id_ed25519':
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 776 bytes | 155.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Angeloacl/Dio-Desafio-Git-GitHub.git
+   21cad68..eded733  main -> main
+
+Obs- basta dar o comando f5 em nosso gitHub que todos os commits esta lá 
+
+
+
+
